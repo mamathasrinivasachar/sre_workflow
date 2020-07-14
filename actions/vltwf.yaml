@@ -1,0 +1,13 @@
+---
+name: vltwf
+pack: sre_workflow
+runner_type: "local-shell-script"
+description: Greet vltwf StackStorm!
+enabled: true
+entry_point: vltwf.sh
+parameters:
+    greeting:
+        type: string
+        description: Greeting you want to say to vltwf Stackstorm
+        required: true
+        position: 1

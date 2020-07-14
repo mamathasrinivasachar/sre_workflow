@@ -1,0 +1,9 @@
+---
+name: vltwf.concurrency
+pack: sre_workflow
+description: Limits the concurrent executions of the vltwf action.
+enabled: true
+resource_ref: sresre_workflow_wf.vltwf
+policy_type: action.concurrency
+parameters:
+    threshold: 10

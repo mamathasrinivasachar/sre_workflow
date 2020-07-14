@@ -1,0 +1,7 @@
+---
+name: vltwf
+pack: sre_workflow
+description: "Greet vltwf StackStorm"
+action_ref: "sre_workflow.greet"
+formats:
+  - "vltwf {{greeting}}"
